@@ -2,4 +2,12 @@
 .container {
   width: 100%;
   max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    justify-content: center;
+  }
 }
